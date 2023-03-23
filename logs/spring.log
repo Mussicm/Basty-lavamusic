@@ -1,0 +1,256 @@
+2023-03-23 00:02:02.373  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:35564 -- CloseStatus[code=1006, reason=]
+2023-03-23 00:02:02.846  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 00:02:03.255  INFO 112 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:51626
+2023-03-23 00:02:03.312  INFO 112 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 00:41:05.319  INFO 112 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        706ea7adbb0d9b2301eca27d784e70a2412ca5ce-SNAPSHOT
+	Build:          Unofficial
+	Build time:     12.08.2022 10:18:20 UTC
+	Branch:         dev
+	Commit:         706ea7a
+	Commit time:    11.08.2022 22:20:22 UTC
+	Kotlin:         1.7.10
+	JVM:            16
+	Lavaplayer:     1.3.98.2
+
+2023-03-23 00:41:05.606  INFO 112 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on ed841ae01f6b with PID 112 (/home/runner/lavalink-replit/Lavalink.jar started by runner in /home/runner/lavalink-replit)
+2023-03-23 00:41:05.607  INFO 112 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 00:41:12.341  WARN 112 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-23 00:41:12.524  INFO 112 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-03-23 00:41:12.526  INFO 112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6699 ms
+2023-03-23 00:41:13.558  INFO 112 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2023-03-23 00:41:13.648  WARN 112 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-03-23 00:41:14.713  INFO 112 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-03-23 00:41:15.255  INFO 112 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2023-03-23 00:41:15.255  INFO 112 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-03-23 00:41:15.259  INFO 112 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-03-23 00:41:15.307  INFO 112 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-03-23 00:41:15.310  INFO 112 --- [main] lavalink.server.config.KoeConfiguration  : Using Nio Transport.
+2023-03-23 00:41:15.311  INFO 112 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2023-03-23 00:41:15.326  INFO 112 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2023-03-23 00:41:15.421  INFO 112 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2023-03-23 00:41:15.426  INFO 112 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2023-03-23 00:41:15.432  INFO 112 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2023-03-23 00:41:15.434  INFO 112 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2023-03-23 00:41:17.539  INFO 112 --- [main] io.undertow                              : starting server: Undertow - 2.2.18.Final
+2023-03-23 00:41:17.632  INFO 112 --- [main] org.xnio                                 : XNIO version 3.8.7.Final
+2023-03-23 00:41:17.644  INFO 112 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.7.Final
+2023-03-23 00:41:17.904  INFO 112 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-03-23 00:41:17.992  INFO 112 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2023-03-23 00:41:18.003  INFO 112 --- [main] lavalink.server.Launcher                 : Started Launcher in 15.077 seconds (JVM running for 17.248)
+2023-03-23 00:41:18.212 ERROR 112 --- [XNIO-1 I/O-1] io.undertow.request                      : UT005071: Undertow request failed HttpServerExchange{ OPTIONS *}
+
+java.lang.IllegalArgumentException: UT000068: Servlet path match failed
+	at io.undertow.servlet.handlers.ServletPathMatchesData.getServletHandlerByPath(ServletPathMatchesData.java:83) ~[undertow-servlet-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.servlet.handlers.ServletPathMatches.getServletHandlerByPath(ServletPathMatches.java:133) ~[undertow-servlet-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleRequest(ServletInitialHandler.java:147) ~[undertow-servlet-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.server.handlers.HttpContinueReadHandler.handleRequest(HttpContinueReadHandler.java:69) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at org.springframework.boot.web.embedded.undertow.DeploymentManagerHttpHandlerFactory$DeploymentManagerHandler.handleRequest(DeploymentManagerHttpHandlerFactory.java:75) ~[spring-boot-2.7.2.jar!/:2.7.2]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:256) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:136) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:162) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:100) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:57) ~[undertow-core-2.2.18.Final.jar!/:2.2.18.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.7.Final.jar!/:3.8.7.Final]
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291) ~[xnio-api-3.8.7.Final.jar!/:3.8.7.Final]
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286) ~[xnio-api-3.8.7.Final.jar!/:3.8.7.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.7.Final.jar!/:3.8.7.Final]
+	at org.xnio.nio.QueuedNioTcpServer2.acceptTask(QueuedNioTcpServer2.java:178) ~[xnio-nio-3.8.7.Final.jar!/:3.8.7.Final]
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612) ~[xnio-nio-3.8.7.Final.jar!/:3.8.7.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:479) ~[xnio-nio-3.8.7.Final.jar!/:3.8.7.Final]
+
+2023-03-23 00:41:18.408  INFO 112 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 00:41:18.409  INFO 112 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-23 00:41:18.414  INFO 112 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-03-23 00:41:18.711  INFO 112 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:36910
+2023-03-23 00:41:19.307  INFO 112 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 02:32:20.473  INFO 112 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:49658
+2023-03-23 02:32:20.478  INFO 112 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 02:34:43.002  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:36910 -- CloseStatus[code=1006, reason=]
+2023-03-23 02:34:43.006  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 03:17:03.911  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:49658 -- CloseStatus[code=1006, reason=]
+2023-03-23 03:17:03.912  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 03:17:05.205  INFO 112 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:47902
+2023-03-23 03:17:05.220  INFO 112 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 03:27:14.031  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1062047689530937506","sessionId":"1588f818ce08e34de88ecb02716a8923","event":{"token":"a29f36869d58668b","guild_id":"1062047689530937506","endpoint":"india9259.discord.media:443"}}
+2023-03-23 03:27:15.640  INFO 112 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=tmNpR_xQd8E"
+2023-03-23 03:27:17.868  WARN 112 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-03-23 03:27:22.915  INFO 112 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Xcho - ?? ? ? | Tik Tok Remix
+2023-03-23 03:27:23.947  INFO 112 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Xcho - ?? ? ? | Tik Tok Remix GANGSTER CITY"
+2023-03-23 03:27:24.948  INFO 112 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Xcho - ?? ? ? | Tik Tok Remix GANGSTER CITY
+2023-03-23 03:27:25.274  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1062047689530937506","track":"QAAAvwIAIVhjaG8gLSDQotGLINC4INCvIHwgVGlrIFRvayBSZW1peAANR0FOR1NURVIgQ0lUWQAAAAAAAsbwAAt0bU5wUl94UWQ4RQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXRtTnBSX3hRZDhFAQA0aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS90bU5wUl94UWQ4RS9tYXhyZXNkZWZhdWx0LmpwZwAHeW91dHViZQAAAAAAAAAA","noReplace":true,"pause":false}
+2023-03-23 03:27:26.817  WARN 112 --- [nioEventLoopGroup-3-1] m.k.k.i.handler.DiscordUDPConnection     : Could not get the UDP Socket file descriptor, audio receive system won't work. Disable NAS to be able to send and receive audio simultaneously.
+2023-03-23 03:29:14.713  WARN 112 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 7] [Bucket 20 = 3] [Bucket 50 = 2] [Bucket 200 = 1] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2023-03-23 03:30:29.595  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1062047689530937506"}
+2023-03-23 03:30:46.954  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1061986622805131304","sessionId":"1588f818ce08e34de88ecb02716a8923","event":{"token":"b3f9729e51ff98b2","guild_id":"1061986622805131304","endpoint":"singapore28.discord.media:443"}}
+2023-03-23 03:30:47.657  INFO 112 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=tmNpR_xQd8E"
+2023-03-23 03:30:47.823  INFO 112 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Xcho - ?? ? ? | Tik Tok Remix
+2023-03-23 03:30:48.595  INFO 112 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Xcho - ?? ? ? | Tik Tok Remix GANGSTER CITY"
+2023-03-23 03:30:49.136  INFO 112 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Xcho - ?? ? ? | Tik Tok Remix GANGSTER CITY
+2023-03-23 03:30:49.409  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1061986622805131304","track":"QAAAvwIAIVhjaG8gLSDQotGLINC4INCvIHwgVGlrIFRvayBSZW1peAANR0FOR1NURVIgQ0lUWQAAAAAAAsbwAAt0bU5wUl94UWQ4RQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXRtTnBSX3hRZDhFAQA0aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS90bU5wUl94UWQ4RS9tYXhyZXNkZWZhdWx0LmpwZwAHeW91dHViZQAAAAAAAAAA","noReplace":true,"pause":false}
+2023-03-23 03:33:52.142  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1061986622805131304"}
+2023-03-23 03:41:42.927  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:47902 -- CloseStatus[code=1006, reason=]
+2023-03-23 03:41:42.927  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 03:41:44.162  INFO 112 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:59180
+2023-03-23 03:41:44.167  INFO 112 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 03:42:00.396  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:59180 -- CloseStatus[code=1006, reason=]
+2023-03-23 03:42:00.397  INFO 112 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 03:42:01.025  INFO 112 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:34594
+2023-03-23 03:42:01.060  INFO 112 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 04:26:31.932  INFO 108 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        706ea7adbb0d9b2301eca27d784e70a2412ca5ce-SNAPSHOT
+	Build:          Unofficial
+	Build time:     12.08.2022 10:18:20 UTC
+	Branch:         dev
+	Commit:         706ea7a
+	Commit time:    11.08.2022 22:20:22 UTC
+	Kotlin:         1.7.10
+	JVM:            16
+	Lavaplayer:     1.3.98.2
+
+2023-03-23 04:26:32.253  INFO 108 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on cfe5d090a73c with PID 108 (/home/runner/lavalink-replit/Lavalink.jar started by runner in /home/runner/lavalink-replit)
+2023-03-23 04:26:32.255  INFO 108 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 04:26:41.046  WARN 108 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-23 04:26:41.158  INFO 108 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-03-23 04:26:41.159  INFO 108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8504 ms
+2023-03-23 04:26:42.743  INFO 108 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2023-03-23 04:26:42.830  WARN 108 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-03-23 04:26:44.543  INFO 108 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-03-23 04:26:45.337  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2023-03-23 04:26:45.338  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-03-23 04:26:45.343  INFO 108 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-03-23 04:26:45.350  INFO 108 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-03-23 04:26:45.354  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : Using Nio Transport.
+2023-03-23 04:26:45.355  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2023-03-23 04:26:45.440  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2023-03-23 04:26:45.534  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2023-03-23 04:26:45.544  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2023-03-23 04:26:45.555  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2023-03-23 04:26:45.557  INFO 108 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2023-03-23 04:26:48.048  INFO 108 --- [main] io.undertow                              : starting server: Undertow - 2.2.18.Final
+2023-03-23 04:26:48.074  INFO 108 --- [main] org.xnio                                 : XNIO version 3.8.7.Final
+2023-03-23 04:26:48.167  INFO 108 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.7.Final
+2023-03-23 04:26:48.636  INFO 108 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-03-23 04:26:48.843  INFO 108 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2023-03-23 04:26:48.861  INFO 108 --- [main] lavalink.server.Launcher                 : Started Launcher in 19.308 seconds (JVM running for 22.206)
+2023-03-23 05:16:02.829  INFO 108 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 05:16:02.830  INFO 108 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-23 05:16:02.832  INFO 108 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-23 05:16:03.030  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:50736
+2023-03-23 05:16:03.634  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 06:28:12.818  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:50736 -- CloseStatus[code=1006, reason=]
+2023-03-23 06:28:12.825  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 06:42:13.236  INFO 108 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        706ea7adbb0d9b2301eca27d784e70a2412ca5ce-SNAPSHOT
+	Build:          Unofficial
+	Build time:     12.08.2022 10:18:20 UTC
+	Branch:         dev
+	Commit:         706ea7a
+	Commit time:    11.08.2022 22:20:22 UTC
+	Kotlin:         1.7.10
+	JVM:            16
+	Lavaplayer:     1.3.98.2
+
+2023-03-23 06:42:13.549  INFO 108 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on 95885064362e with PID 108 (/home/runner/lavalink-replit/Lavalink.jar started by runner in /home/runner/lavalink-replit)
+2023-03-23 06:42:13.623  INFO 108 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 06:42:20.526  WARN 108 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-03-23 06:42:20.632  INFO 108 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-03-23 06:42:20.633  INFO 108 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6603 ms
+2023-03-23 06:42:21.741  INFO 108 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2023-03-23 06:42:21.832  WARN 108 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-03-23 06:42:23.028  INFO 108 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-03-23 06:42:23.841  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2023-03-23 06:42:23.841  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-03-23 06:42:23.846  INFO 108 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-03-23 06:42:23.923  INFO 108 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-03-23 06:42:23.929  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : Using Nio Transport.
+2023-03-23 06:42:23.930  INFO 108 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2023-03-23 06:42:24.028  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2023-03-23 06:42:24.128  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2023-03-23 06:42:24.132  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2023-03-23 06:42:24.144  INFO 108 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2023-03-23 06:42:24.145  INFO 108 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2023-03-23 06:42:26.022  INFO 108 --- [main] io.undertow                              : starting server: Undertow - 2.2.18.Final
+2023-03-23 06:42:26.034  INFO 108 --- [main] org.xnio                                 : XNIO version 3.8.7.Final
+2023-03-23 06:42:26.128  INFO 108 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.7.Final
+2023-03-23 06:42:26.454  INFO 108 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-03-23 06:42:26.715  INFO 108 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2023-03-23 06:42:26.736  INFO 108 --- [main] lavalink.server.Launcher                 : Started Launcher in 15.797 seconds (JVM running for 18.086)
+2023-03-23 07:11:05.351  INFO 108 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-23 07:11:05.352  INFO 108 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-23 07:11:05.354  INFO 108 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-23 07:11:05.524  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:57276
+2023-03-23 07:11:06.149  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 07:38:16.305  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:57276 -- CloseStatus[code=1006, reason=]
+2023-03-23 07:38:16.306  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 07:38:17.627  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:45604
+2023-03-23 07:38:17.630  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 08:26:54.263  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:45604 -- CloseStatus[code=1006, reason=]
+2023-03-23 08:26:54.264  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 08:50:26.243 ERROR 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.31.128.1:57518
+2023-03-23 08:50:26.679 ERROR 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.31.128.1:57518
+2023-03-23 08:57:12.329  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:42496
+2023-03-23 08:57:12.387  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 08:57:16.965  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1061986622805131304","sessionId":"520b5ee0ef946c3b54d4971175737ece","event":{"token":"4dd28122f2cff716","guild_id":"1061986622805131304","endpoint":"singapore8142.discord.media:443"}}
+2023-03-23 08:57:18.364  INFO 108 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:we shall sail to gethere offifial"
+2023-03-23 08:57:24.075  INFO 108 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: we shall sail to gethere offifial
+2023-03-23 08:57:25.232  INFO 108 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Sea of Thieves Tavern Tunes : We Shall Sail Together (Lyrics) Main Theme Song/Soundtrack Movie Abstract"
+2023-03-23 08:57:25.765  INFO 108 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Sea of Thieves Tavern Tunes : We Shall Sail Together (Lyrics) Main Theme Song/Soundtrack Movie Abstract
+2023-03-23 08:57:26.027  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1061986622805131304","track":"QAAA9wIAWFNlYSBvZiBUaGlldmVzIFRhdmVybiBUdW5lcyA6IFdlIFNoYWxsIFNhaWwgVG9nZXRoZXIgKEx5cmljcykgTWFpbiBUaGVtZSBTb25nL1NvdW5kdHJhY2sADk1vdmllIEFic3RyYWN0AAAAAAAB/7gAC082T0kyLXAtX0FFAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TzZPSTItcC1fQUUBADRodHRwczovL2kueXRpbWcuY29tL3ZpL082T0kyLXAtX0FFL21heHJlc2RlZmF1bHQuanBnAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":true,"pause":false}
+2023-03-23 08:57:26.041  WARN 108 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-03-23 08:57:30.053  WARN 108 --- [nioEventLoopGroup-3-2] m.k.k.i.handler.DiscordUDPConnection     : Could not get the UDP Socket file descriptor, audio receive system won't work. Disable NAS to be able to send and receive audio simultaneously.
+2023-03-23 08:57:56.593  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"1061986622805131304"}
+2023-03-23 08:57:56.786  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1061986622805131304"}
+2023-03-23 08:58:23.029  WARN 108 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 6] [Bucket 20 = 3] [Bucket 50 = 3] [Bucket 200 = 1] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2023-03-23 09:48:08.374  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:42496 -- CloseStatus[code=1006, reason=]
+2023-03-23 09:48:08.374  INFO 108 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 09:48:09.669  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:54306
+2023-03-23 09:48:09.673  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 10:29:29.825  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1062047689530937506","sessionId":"520b5ee0ef946c3b54d4971175737ece","event":{"token":"ddbcb7ee2f033cdd","guild_id":"1062047689530937506","endpoint":"singapore11080.discord.media:443"}}
+2023-03-23 10:29:30.930  INFO 108 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=ubCwRm0h3C0"
+2023-03-23 10:29:31.289  INFO 108 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Madu Mala Lesa (Cover)| ??? ?? ??? | Udesh Nilanga
+2023-03-23 10:29:32.309  INFO 108 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Madu Mala Lesa (Cover)| ??? ?? ??? | Udesh Nilanga Thaala Creations - ???"
+2023-03-23 10:29:33.348  INFO 108 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Madu Mala Lesa (Cover)| ??? ?? ??? | Udesh Nilanga Thaala Creations - ???
+2023-03-23 10:29:33.797  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1062047689530937506","track":"QAAA7wIAQk1hZHUgTWFsYSBMZXNhIChDb3Zlcil8IOC2uOC2sOC3lCDgtrjgtr0g4La94LeZ4LeDIHwgVWRlc2ggTmlsYW5nYQAcVGhhYWxhIENyZWF0aW9ucyAtIOC2reC3j+C2vQAAAAAAA0PwAAt1YkN3Um0waDNDMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXViQ3dSbTBoM0MwAQA0aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS91YkN3Um0waDNDMC9tYXhyZXNkZWZhdWx0LmpwZwAHeW91dHViZQAAAAAAAAAA","noReplace":true,"pause":false}
+2023-03-23 10:33:08.850  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1062047689530937506"}
+2023-03-23 13:17:31.686  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:54306 -- CloseStatus[code=1006, reason=]
+2023-03-23 13:17:31.687  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 13:17:37.699  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:46988
+2023-03-23 13:17:37.707  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 14:30:28.782  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:46988 -- CloseStatus[code=1006, reason=]
+2023-03-23 14:30:28.795  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-03-23 16:41:08.575  INFO 108 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /172.31.128.1:37952
+2023-03-23 16:41:08.632  INFO 108 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from shoukakubot/3.3.1 (https://github.com/Deivu/Shoukaku)
+2023-03-23 16:41:35.160  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1062047689530937506","sessionId":"cbace39b102c6336d7f9454ca979e096","event":{"token":"d7301a5f10f6ec25","guild_id":"1062047689530937506","endpoint":"singapore11062.discord.media:443"}}
+2023-03-23 16:41:35.799  INFO 108 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:my heatrt is cant ike it any more"
+2023-03-23 16:41:36.383  INFO 108 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: my heatrt is cant ike it any more
+2023-03-23 16:41:37.103  INFO 108 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Mario Winans - I Don't Wanna Know (Official Music Video) Bad Boy Entertainment"
+2023-03-23 16:41:37.583  INFO 108 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Mario Winans - I Don't Wanna Know (Official Music Video) Bad Boy Entertainment
+2023-03-23 16:41:37.832  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1062047689530937506","track":"QAAA3gIAOE1hcmlvIFdpbmFucyAtIEkgRG9uJ3QgV2FubmEgS25vdyAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pABVCYWQgQm95IEVudGVydGFpbm1lbnQAAAAAAAPr6AALS0NIZ3hvWHY0ZzQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1LQ0hneG9YdjRnNAEANGh0dHBzOi8vaS55dGltZy5jb20vdmkvS0NIZ3hvWHY0ZzQvbWF4cmVzZGVmYXVsdC5qcGcAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true,"pause":false}
+2023-03-23 16:42:55.976  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /172.31.128.1:37952 -- CloseStatus[code=1006, reason=]
+2023-03-23 16:42:55.987  INFO 108 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
